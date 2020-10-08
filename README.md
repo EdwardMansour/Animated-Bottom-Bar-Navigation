@@ -1,4 +1,4 @@
-# estatetial_interm_test
+# estatetial_intern_test
 
 A new Flutter project.
 
