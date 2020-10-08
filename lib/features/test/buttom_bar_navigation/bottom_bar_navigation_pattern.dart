@@ -160,7 +160,11 @@ class _BottomBarNavigationState extends State<BottomBarNavigation> {
                   elevation: 13,
                   onPressed: () => setState(
                     () {
-                      showOrHide = !showOrHide;
+                       showOrHide = !showOrHide;
+                      if (selectedBarIndex == 2 && showOrHide) {
+                        showBottomMenu = true;
+                        showFloatingButton = false;
+                      }
                     },
                   ),
                   child: showOrHide
